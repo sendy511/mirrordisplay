@@ -1,4 +1,4 @@
-define(["lib/react"], function(React){
+define(["lib/react", "jquery"], function(React, $){
 	var Weather = React.createClass({
 		render: function(){
 			return (
