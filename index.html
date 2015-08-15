@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <title>MirrorDisplay</title>
         <!-- data-main attribute tells require.js to load
              scripts/main.js after require.js loads. -->
         <script data-main="scripts/app" src="scripts/require.js"></script>
     </head>
     <body>
-        <h1>My Sample Project</h1>
+        <h1>穿衣指数：</h1>
+        <script type="text/javascript">
+            requirejs(["lib/react", "src/main"], function(React, Weather){
+                React.render(React.createElement(Weather), document.getElementById('weather'));
+            });
+        </script>
         <div id="weather"></div>
     </body>
 </html>

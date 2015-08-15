@@ -1,4 +1,4 @@
-requirejs(["lib/react"], function(React){
+define(["lib/react"], function(React){
 	var Weather = React.createClass({
 		render: function(){
 			return (
@@ -7,5 +7,5 @@ requirejs(["lib/react"], function(React){
 		}
 	});
 
-	React.render(<Weather />, document.getElementById('weather'));
+	return Weather;
 });
