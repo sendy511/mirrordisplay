@@ -4,12 +4,7 @@
         <title>MirrorDisplay</title>
         <!-- data-main attribute tells require.js to load
              scripts/main.js after require.js loads. -->
-        <script data-main="src/main" src="scripts/require.js"></script>
-        <script type="text/javascript">
-        	requirejs(["lib/react", "src/main"], function(React){
-        		React.render(React.createElement(Weather, null), document.getElementById('weather'));
-        	});
-        </script>
+        <script data-main="scripts/app" src="scripts/require.js"></script>
     </head>
     <body>
         <h1>My Sample Project</h1>

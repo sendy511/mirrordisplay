@@ -7,5 +7,5 @@ requirejs(["lib/react"], function(React){
 		}
 	});
 
-	return Weather;
+	React.render(<Weather />, document.getElementById('weather'));
 });
