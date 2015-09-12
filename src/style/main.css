@@ -68,3 +68,11 @@ body{
 .weather-tile .other-locations .other-location span:first-child{
 	margin-left: 0px;
 }
+
+.praise-message-tile{
+	font-size: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 50%;
+	transform: translate(30%, -50%);
+}
