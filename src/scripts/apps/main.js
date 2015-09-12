@@ -1,16 +1,14 @@
-define(["lib/react", "lib/jquery"], function(React, jquery){
-	var Weather = React.createClass({
+define(["lib/react", "apps/date-tile"], function(React, DateTile){
+	var MirrorDisplay = React.createClass({displayName: "MirrorDisplay",
 		render: function(){
-			var openWeatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=beijing,cn&callback=?"
-			$.getJSON(openWeatherUrl, function(json){
-				console.log(json);
-			});
-
 			return (
-				<div> it is good weather </div>
-			)
+				React.createElement("div", null, 
+        			React.createElement("h1", null, "穿衣指数："), 
+					React.createElement(DateTile, null)
+				)
+			);
 		}
 	});
 
-	return Weather;
+	return MirrorDisplay;
 });

@@ -8,12 +8,11 @@
         <script data-main="scripts/app" src="scripts/require.js"></script>
     </head>
     <body>
-        <h1>穿衣指数：</h1>
         <script type="text/javascript">
-            requirejs(["lib/react", "src/main"], function(React, Weather){
-                React.render(React.createElement(Weather), document.getElementById('weather'));
+            requirejs(["lib/react", "apps/mirror-display"], function(React, MirrorDisplay){
+                React.render(React.createElement(MirrorDisplay), document.getElementById('main_container'));
             });
         </script>
-        <div id="weather"></div>
+        <div id="main_container"></div>
     </body>
 </html>
