@@ -3,7 +3,7 @@ define(["lib/react"],
 		var PraiseMessage = React.createClass({
 			render: function(){
 				return (
-					<div className="praise-message-tile">Oh, You looks so beautiful!</div>
+					<div className="praise-message-tile">Oh, You are so beautiful!</div>
 				);
 			}
 		});
