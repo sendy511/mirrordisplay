@@ -3,7 +3,6 @@ define(["lib/react", "apps/date-tile"], function(React, DateTile){
 		render: function(){
 			return (
 				<div>
-        			<h1>穿衣指数：</h1>
 					<DateTile></DateTile>
 				</div>
 			);
