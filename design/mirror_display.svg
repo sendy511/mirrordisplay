@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup">
+            <text id="Sunday，2015-09-12" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="420" fill="#000000">
+                <tspan x="28" y="72">Sunday</tspan>
+                <tspan x="153.352" y="72" font-family="Heiti SC" font-weight="bold">，</tspan>
+                <tspan x="189.352" y="72">2015-09-12</tspan>
+            </text>
+            <text id="Tokayo,--Fine,--18℃" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="normal">
+                <tspan x="703" y="367" fill="#000000">Tokayo,  Fine,  18</tspan>
+                <tspan x="891.064" y="367" font-family="Lucida Grande" fill="#1A1A1A">℃</tspan>
+            </text>
+            <text id="NewYork,--Bright,-18" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="normal">
+                <tspan x="703" y="226" fill="#000000">NewYork,  Bright, 18</tspan>
+                <tspan x="923.008" y="226" font-family="Lucida Grande" fill="#1A1A1A">℃</tspan>
+            </text>
+            <text id="London,--Cloud,--18℃" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="normal">
+                <tspan x="702" y="273" fill="#000000">London,  Cloud,  18</tspan>
+                <tspan x="914.544" y="273" font-family="Lucida Grande" fill="#1A1A1A">℃</tspan>
+            </text>
+            <text id="Paris,--Rain,--18℃" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="normal">
+                <tspan x="703" y="320" fill="#000000">Paris,  Rain,  18</tspan>
+                <tspan x="871.48" y="320" font-family="Lucida Grande" fill="#1A1A1A">℃</tspan>
+            </text>
+            <text id="09:43:40" sketch:type="MSTextLayer" font-family="Heiti SC" font-size="64" font-weight="bold" fill="#000000">
+                <tspan x="28" y="164">09:43:40</tspan>
+            </text>
+            <text id="Oh,-You-looks-beauti" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="64" font-weight="420" fill="#000000">
+                <tspan x="153" y="769">Oh, You looks beautiful</tspan>
+            </text>
+            <text id="--20℃" sketch:type="MSTextLayer" font-family="Heiti SC" font-size="64" font-weight="bold">
+                <tspan x="666" y="118" fill="#000000"> </tspan>
+                <tspan x="682" y="118" font-family="Weather Icons" font-weight="normal" fill="#000000"></tspan>
+                <tspan x="771.59375" y="118" fill="#000000"> </tspan>
+                <tspan x="787.59375" y="118" font-size="90" fill="#000000">20</tspan>
+                <tspan x="887.31375" y="118" font-family="Lucida Grande" font-size="48" font-weight="normal" fill="#1A1A1A">℃</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
