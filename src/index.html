@@ -6,15 +6,9 @@
         <title>MirrorDisplay</title>
 
         <link href="style/main.css" rel="stylesheet" />
-
-        <script data-main="scripts/app" src="scripts/require.js"></script>
     </head>
     <body>
-        <script type="text/javascript">
-            requirejs(["lib/react", "apps/mirror-display"], function(React, MirrorDisplay){
-                React.render(React.createElement(MirrorDisplay), document.getElementById('mirror_display_container'));
-            });
-        </script>
         <div id="mirror_display_container"></div>
+        <script data-main="scripts/main.js" src="scripts/require.js"></script>
     </body>
 </html>
