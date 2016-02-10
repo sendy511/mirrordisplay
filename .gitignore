@@ -1,2 +1,5 @@
 */scripts/apps
+*.swp
 node_modules
+
+src.zip

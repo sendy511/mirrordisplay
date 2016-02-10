@@ -2,7 +2,8 @@ requirejs.config({
 	baseUrl: 'scripts',
 	paths: {
 		lib: 'lib',
-		underscore: "lib/underscore"
+		underscore: "lib/underscore",
+		jquery: "lib/jquery"
 	},
 	shim: {
     	underscore: {

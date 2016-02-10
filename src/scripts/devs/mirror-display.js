@@ -4,7 +4,8 @@ define(["lib/react", "apps/date-tile", "apps/weather-tile", "apps/praise-message
 			render: function(){
 				return (
 					<div>
-						<DateTile />
+							<DateTile />
+
 						<WeatherTile />
 						<PraiseMessageTile />
 					</div>
