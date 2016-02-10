@@ -16,7 +16,7 @@ define(["react", "jquery", "underscore"],
 				return _.map(this.props.other_locations, 
 					function(weather_info){
 						return (
-							<li className="other-location">
+							<li key={weather_info.city} className="other-location">
 								<span>{weather_info.city}</span>
 								<span>{weather_info.status}</span>
 								<span>{weather_info.temperature_degree}</span>
