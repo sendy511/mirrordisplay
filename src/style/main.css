@@ -15,9 +15,6 @@ body{
 }
 
 .date-tile{
-	position: fixed;
-	top: 30px;
-	left: 30px;
 }
 
 .date-tile .date{
