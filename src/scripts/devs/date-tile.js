@@ -1,4 +1,4 @@
-define(["lib/react", "lib/moment"], function(React, moment){
+define(["react", "lib/moment"], function(React, moment){
 	var DateTile = React.createClass({
 		getInitialState: function(){
 			return {

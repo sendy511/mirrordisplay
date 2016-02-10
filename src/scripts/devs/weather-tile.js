@@ -1,4 +1,4 @@
-define(["lib/react", "jquery", "underscore"], 
+define(["react", "jquery", "underscore"], 
 	function(React, jquery, _){
 		var WeatherTile = React.createClass({
 			getDefaultProps: function(){

@@ -1,20 +1,21 @@
 requirejs.config({
 	baseUrl: 'scripts',
 	paths: {
-		lib: 'lib',
 		underscore: "lib/underscore",
-		jquery: "lib/jquery"
+		jquery: "lib/jquery",
+		react: "lib/react",
+		"react-dom": "lib/react-dom"
 	},
 	shim: {
     	underscore: {
 	 	   exports: '_'
     	}
     }
-})
+});
 
-requirejs(["lib/react", "apps/mirror-display"], 
-	function(React, MirrorDisplay){
-        React.render(React.createElement(MirrorDisplay), 
+requirejs(["react", "react-dom", "apps/mirror-display"], 
+	function(React, ReactDom, MirrorDisplay){
+        ReactDom.render(React.createElement(MirrorDisplay), 
         	document.getElementById('mirror_display_container'));
 	}
 );

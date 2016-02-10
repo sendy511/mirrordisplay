@@ -1,4 +1,4 @@
-define(["lib/react"], 
+define(["react"], 
 	function(React){
 		var PraiseMessage = React.createClass({
 			render: function(){
