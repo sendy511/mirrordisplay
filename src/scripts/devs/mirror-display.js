@@ -2,20 +2,37 @@ define(["react", "lib/react-draggable", "apps/date-tile", "apps/weather-tile", "
 	function(React, Draggable, DateTile, WeatherTile, PraiseMessageTile){
 		var MirrorDisplay = React.createClass({
 			render: function(){
+				var dateTileStyle = {
+					position: "fixed",
+					top: 50,
+					left: 50
+				};
+				var weatherTileStyle = {
+					position: "fixed",
+					float: "right",
+					top: 50,
+					right: 50
+				};
+				var praiseMessageTileStyle = {
+					position: "fixed",
+					bottom: 20,
+					right: "50%"
+				};
+
 				return (
 					<div>
-						<Draggable start={{x:30, y:30}}> 
-							<div>
+						<Draggable>
+							<div style={dateTileStyle}>
 								<DateTile />
 							</div>
 						</Draggable>
 						<Draggable>
-							<div>
+							<div style={weatherTileStyle}>
 								<WeatherTile />
 							</div>
 						</Draggable>
 						<Draggable>
-							<div>
+							<div style={praiseMessageTileStyle}>
 								<PraiseMessageTile />
 							</div>
 						</Draggable>

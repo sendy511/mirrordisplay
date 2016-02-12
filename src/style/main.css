@@ -26,10 +26,6 @@ body{
 }
 
 .weather-tile{
-	position: fixed;
-	float: right;
-	top: 50px;
-	right: 50px;
 }
 
 .weather-tile .current-location .icon:before{
@@ -69,9 +65,9 @@ body{
 }
 
 .praise-message-tile{
+}
+
+.praise-message-tile-content{
 	font-size: 40px;
-	position: fixed;
-	bottom: 20px;
-	right: 50%;
 	transform: translate(30%, -50%);
 }
